@@ -5,14 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Counter from './1/Counter';
 import Time from './2/Time';
+import Change from './3/Change';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Counter />
+    {/* <Counter /> */}
     {/* <Time /> */}
+    <Change />
   </React.StrictMode>
 );
 
